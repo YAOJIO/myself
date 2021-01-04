@@ -6,7 +6,7 @@ name: 疯狂的joy在线挂机
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 13 * * *'
+    - cron: '12 13 * * *'
   watch:
     types: started
   repository_dispatch:
@@ -42,4 +42,3 @@ jobs:
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
-          JD_USER_AGENT: ${{ secrets.JD_USER_AGENT }}
