@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/feiyu12321/qqread.git ~/qqread   
+          git clone https://github.com/YAOJIO/myself.git ~/qqread   
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
