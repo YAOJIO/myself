@@ -27,7 +27,7 @@ jobs:
                   npm install
             - name: "运行 【企鹅阅读】"
               run: |
-                  node qeyd.js
+                  node QQread.js
               env:
                   QQREAD_BODY: ${{ secrets.QQREAD_BODY }}
                   QQREAD_TIMEURL: ${{ secrets.QQREAD_TIMEURL }}
